@@ -87,17 +87,49 @@ main hr {
 /* Gallery Section */
 
 #gallery {
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
 }
 
 #gallery img {
     height: 500px;
     width: calc(100%/3);
+    margin: 3px 3px;
+    border: 4px solid black;
 }
 
-.gallery_row1 {
+.gallery_row1,
+.gallery_row2 {
     display: flex;
 }
 
 /* End: Gallery Section */
+
+/* Contact */
+
+#contact {
+    text-align: center;
+}
+
+.contact__help {
+    margin-bottom: 0;
+}
+
+.contact__number {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 55px;
+    color: white;
+}
+
+.contact__hr {
+    width: 100%;
+    margin-top: 20px;
+    border-top: 2px dotted #800080;
+}
+
+#contact h4 {
+    margin-top: 0;
+}
+
+/* End: Contact */
